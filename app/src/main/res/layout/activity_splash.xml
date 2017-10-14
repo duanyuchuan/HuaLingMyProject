@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hualing.hualingmyproject.ui.activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_ads"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#0000ff"
+        />
+
+    <LinearLayout
+        android:id="@+id/lly_button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#669BCD9B"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="华领Love家"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="版权所有  ©2018-2028 华领网络科技有限公司"/>
+
+    </LinearLayout>
+
+</LinearLayout>
